@@ -1,0 +1,106 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Moeko Mitani Portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="../assets/css/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    #nav ul li a {
+      color: #00acb3 !important;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    #nav ul li a:hover {
+      color: #00acb3 !important;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body class="is-preload">
+
+  <!-- Nav -->
+  <nav id="nav" style="background-color: #fafc97;">
+    <ul class="container">
+      <li><a href="../index.html#Home">Home</a></li>
+      <li><a href="../index.html#About">About</a></li>
+      <li><a href="../index.html#Projects">Projects</a></li>
+      <li><a href="../CV_Moeko Mitani.pdf" target="_blank">Resume</a></li>
+      <li><a href="#Contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Project Content -->
+  <article class="wrapper style1">
+    <div class="container">
+      <header>
+        <h2>Customer Segmentation – Hotel H (2025)</h2>
+        <p>Python (e.g., Scikit-Learn, Numpy, Pandas, Matplotib, Seaborn, minisom)</p>
+        <p>Grade: 19.5</p>
+      </header>
+
+      <div class="row">
+        <div class="col-5 col-12-medium">
+          <span class="image fit"><img src="../project images/clusters.png" alt="" style="max-width: 80%; height: auto;"/></span>
+      
+          <span class="image fit"><img src="../project images/profiling.png" alt="" style="max-width: 70%; height: auto;"/></span>
+        </div>
+        <div class="col-7 col-12-medium">
+            <p>
+                As part of this project, we developed a data-driven <strong>Customer Segmentation</strong> strategy for Hotel H, leveraging nearly 112,000 records collected over three years and ten months. The primary goal was to uncover distinct customer segments to support personalized marketing strategies and revenue optimization. 
+            </p>
+                Using the CRISP-DM framework, we applied and compared multiple unsupervised learning techniques including <strong>K-Means</strong>, <strong>Self-Organizing Maps (SOM)</strong>, and <strong>DBSCAN</strong>. While Principal Component Analysis (PCA) was considered for dimensionality reduction, it was ultimately excluded to preserve feature interpretability for business insights.
+            </p> 
+                The final model identified four meaningful customer clusters using K-Means, each with unique behavioral and demographic traits. Based on these segments, we proposed targeted marketing strategies to enhance customer retention and acquisition. The project also included the design of development and maintenance plans for future model scalability and improvements.
+            </p> 
+          <ul class="actions">
+            <li><a href="../projects/Report_Customer_Segmentation.pdf" class="button" style="background-color: #00acb3;" target="_blank">Report</a></li>
+            <li><a href="https://github.com/moeko-m/Hotel-Customer-Segmentation" class="button" style="background-color: #00acb3;" target="_blank">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- Contact -->
+  <article id="Contact" class="wrapper style4" style="background-color: #fafc97;">
+    <div class="container medium" style="text-align: center;">
+      <div class="col-12">
+        <hr />
+        <h3 style="color: #00acb3;">Let's talk!</h3>
+        <ul class="social" style="list-style: none; padding: 0; display: flex; justify-content: center; gap: 20px;">
+          <li>
+            <a href="https://www.linkedin.com/in/moeko-mitani" target="_blank" aria-label="LinkedIn" style="color: white;">
+              <i class="fab fa-linkedin-in fa-lg"></i>
+            </a>
+            <a href="https://github.com/moeko-m" target="_blank" aria-label="GitHub" style="color: white;">
+              <i class="fab fa-github fa-lg"></i>
+            </a>
+          </li>
+        </ul>
+        <hr />
+      </div>
+
+      <footer>
+        <ul id="copyright" style="list-style: none; padding: 0; font-size: 0.9rem; color: white;">
+          <li>&copy; Moeko Mitani. All rights reserved.</li>
+        </ul>
+      </footer>
+    </div>
+  </article>
+
+  <!-- Scripts -->
+  <script src="../assets/js/jquery.min.js"></script>
+  <script src="../assets/js/jquery.scrolly.min.js"></script>
+  <script src="../assets/js/browser.min.js"></script>
+  <script src="../assets/js/breakpoints.min.js"></script>
+  <script src="../assets/js/util.js"></script>
+  <script src="../assets/js/main.js"></script>
+
+</body>
+</html>
