@@ -1,0 +1,105 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Moeko Mitani Portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="../assets/css/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    #nav ul li a {
+      color: #00acb3 !important;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    #nav ul li a:hover {
+      color: #00acb3 !important;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body class="is-preload">
+
+  <!-- Nav -->
+  <nav id="nav" style="background-color: #fafc97;">
+    <ul class="container">
+      <li><a href="../index.html#Home">Home</a></li>
+      <li><a href="../index.html#About">About</a></li>
+      <li><a href="../index.html#Projects">Projects</a></li>
+      <li><a href="../CV_Moeko_Mitani.pdf" target="_blank">Resume</a></li>
+      <li><a href="#Contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Project Content -->
+  <article class="wrapper style1">
+    <div class="container">
+      <header>
+        <h2>Financial Sentiment Analysis with NLP</h2>
+        <p>Python (e.g., Scikit-Learn, nltk, transformers)</p>
+      </header>
+
+      <div class="row">
+        <div class="col-5 col-12-medium">
+          <span class="image fit"><img src="../project images/tm.png" alt="" style="max-width: 80%; height: auto;"/></span>
+      
+          <span class="image fit"><img src="../project images/tm2.png" alt="" style="max-width: 70%; height: auto;"/></span>
+        </div>
+        <div class="col-7 col-12-medium">
+            <p>
+                In this project, we built a <strong>sentiment classification system</strong> that detects whether financial tweets are bearish, bullish, or neutral. 
+            </p>
+                We tested a range of models, from traditional machine learning (<strong>Logistic Regression</strong>, <strong>Random Forest</strong>) to advanced transformer models (<strong>DistilBERT</strong>, <strong>FinBERT</strong>, <strong>GPT-2</strong>). DistilBERT delivered the best results, achieving <strong>87% accuracy</strong>.
+            </p> 
+                The project also includes custom preprocessing, named entity recognition, and emoji analysis. This work highlights the power of transformers for financial NLP and the importance of adapting modeling to domain-specific text.
+            </p> 
+          <ul class="actions">
+            <li><a href="../projects/Report_TM.pdf" class="button" style="background-color: #00acb3;" target="_blank">Report</a></li>
+            <li><a href="https://github.com/moeko-m/Stock-Sentiment-Analysis" class="button" style="background-color: #00acb3;" target="_blank">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- Contact -->
+  <article id="Contact" class="wrapper style4" style="background-color: #fafc97;">
+    <div class="container medium" style="text-align: center;">
+      <div class="col-12">
+        <hr />
+        <h3 style="color: #00acb3;">Let's talk!</h3>
+        <ul class="social" style="list-style: none; padding: 0; display: flex; justify-content: center; gap: 20px;">
+          <li>
+            <a href="https://www.linkedin.com/in/moeko-mitani" target="_blank" aria-label="LinkedIn" style="color: #00acb3 ;">
+              <i class="fab fa-linkedin-in fa-lg"></i>
+            </a>
+            <a href="https://github.com/moeko-m" target="_blank" aria-label="GitHub" style="color: #00acb3 ;">
+              <i class="fab fa-github fa-lg"></i>
+            </a>
+          </li>
+        </ul>
+        <hr />
+      </div>
+
+      <footer>
+        <ul id="copyright" style="list-style: none; padding: 0; font-size: 0.9rem; color: white;">
+          <li>&copy; Moeko Mitani. All rights reserved.</li>
+        </ul>
+      </footer>
+    </div>
+  </article>
+
+  <!-- Scripts -->
+  <script src="../assets/js/jquery.min.js"></script>
+  <script src="../assets/js/jquery.scrolly.min.js"></script>
+  <script src="../assets/js/browser.min.js"></script>
+  <script src="../assets/js/breakpoints.min.js"></script>
+  <script src="../assets/js/util.js"></script>
+  <script src="../assets/js/main.js"></script>
+
+</body>
+</html>
